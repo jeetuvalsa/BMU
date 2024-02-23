@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+      html,body{
+        height: 100%;
+        width: 100%;
+        
+      }
+        #circle {
+          height: 9vw;
+    width: 9vw;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    z-index: 51;
+    right: 0;
+    margin: 3vw;
+    transition: all ease 0.5s;
+        }
+
+        #circle.expanded {
+          height: 80vh;
+    width: 80vw;
+    border-radius: 0;
+    left: calc(50% - 3vw);
+    top: calc(50% - 3vw);
+
+    transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="circle"></div>
+
+    <script>
+        var circle = document.getElementById('circle');
+        circle.addEventListener('click', function(event) {
+            circle.classList.add('expanded');
+            event.stopPropagation();
+        });
+
+        document.body.addEventListener('click', function() {
+            circle.classList.remove('expanded');
+        });
+    </script>
+</body>
+</html>
