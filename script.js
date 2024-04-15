@@ -73,8 +73,8 @@ setInterval(()=>{
 tl.from(".line span",{
     animationName:"now",
     opacity:1,
-    // duration:5.1
-    duration:0.1
+    duration:5.1
+    // duration:0
 })
 tl.to("#loader",{
     y:"-100%",
@@ -88,7 +88,7 @@ tl.from("#details,#nav,#career,#socials",{
     delay:0.1,
     opacity:0
 })
-tl.from("#hero",{
+tl.from("#hero,#page2,#page3",{
     opacity:0,
 })
 }
@@ -129,6 +129,66 @@ document.body.addEventListener("click",()=>{
 
 }
 logoanimation()
+
+
+function page3animation(){
+    var circulars = document.querySelectorAll(".circular")
+    var upperbox = document.querySelector("#upperbox")
+    
+    circulars.forEach((e)=>{
+        e.addEventListener("mouseenter",()=>{
+            upperbox.style.display = "block"
+        })
+        e.addEventListener("mouseleave",()=>{
+            upperbox.style.display = "none"
+        })
+    })
+    
+    document.body.addEventListener("mousemove",(dets)=>{
+        gsap.to("#upperbox",{
+            left:dets.x,
+            top:dets.y
+        })
+    })
+    var circulars = document.querySelectorAll(".circular")
+    console.log(circulars);
+    circulars.forEach((e)=>{
+        e.addEventListener("mouseenter",()=>{
+            var image = e.getAttribute("data-image");
+        upperbox.style.backgroundImage = `url(${image})`
+        })
+    })
+}
+page3animation()
+
+        
+
+function horizontal(){
+    gsap.to("#page5-content", {
+        // transform:"translate(-67.5%)",
+        transform:"translate(-124vw)",
+        scrollTrigger:{
+            trigger:"#page5",
+            // scroller:"body",
+            scroller:"#main",
+            // markers:true,
+            start:"top 0%",
+            end:"top -100%",
+            pin:true,
+            scrub:2
+        }
+    });
+}
+horizontal()
+function showSidebar(){
+    const sidebar = document.querySelector(".sidebar")
+    sidebar.style.visibility = "visible"
+}
+
+function hidebar(){
+    const sidebar = document.querySelector(".sidebar")
+    sidebar.style.visibility = "hidden"
+}
 
 
 
