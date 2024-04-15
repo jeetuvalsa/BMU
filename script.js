@@ -73,8 +73,8 @@ setInterval(()=>{
 tl.from(".line span",{
     animationName:"now",
     opacity:1,
-    duration:5.1
-    // duration:0.1
+    // duration:5.1
+    duration:0.1
 })
 tl.to("#loader",{
     y:"-100%",

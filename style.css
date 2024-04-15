@@ -38,6 +38,10 @@ body::-webkit-scrollbar-thumb{
     background-color: #ff6d41;
     border-radius: 10px;
 }
+::selection{
+    background-color: #023D67;
+    color: #ff6d41;
+}
 #loader{
     height: 100%;
     width: 100%;
@@ -602,6 +606,7 @@ ul.dropdown>li>a:hover{
     width: 100%;
     background-color: #ffffff;
     padding: 4vw 5vw;
+    padding-top: 5.5vw;
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
@@ -797,4 +802,10 @@ ul.dropdown>li>a:hover{
     100%{
         transform: translate(-30%,30%);
     }
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #000;
 }
