@@ -1,505 +1,1113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bhagwan Mahavir University</title>
-    <link rel="shortcut icon" href="./Images/fav.webp" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="./Images/fav.webp" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div id="loader">
-        <div class="line">
-            <div id="line1-part1">
-                <h5>00</h5>
-                <h6> - 100</h6>
-            </div>
-            <h1>your</h1>
+      <div class="line">
+        <div id="line1-part1">
+          <h5>00</h5>
+          <h6>- 100</h6>
         </div>
-        <div class="line">
-            <h1>Bright Future</h1>
-        </div>
-        <div id="line3" class="line">
-            <h1>loading right </h1><span>now</span>
-        </div>
+        <h1>your</h1>
+      </div>
+      <div class="line">
+        <h1>Bright Future</h1>
+      </div>
+      <div id="line3" class="line">
+        <h1>loading right</h1>
+        <span>now</span>
+      </div>
     </div>
     <div id="upperbox"></div>
-    
-    
+
     <div id="main">
-        <div id="page1" data-scroll >
-            <div id="details">
-                <div id="career">
-                    <a href="https://www.bmusurat.ac.in/career-expo-at-bmu-university-in-surat-gujarat/">Career Expo 2024</a>
-                    <a href="https://journals.bmusurat.ac.in/samhita/">Journals</a>
-                    <a href="#">Alumni</a>
-                    <a href="https://www.bmusurat.ac.in/career-page/">Career At BMU</a>
-                    <a href="#">ABC Scheme</a>
-                </div>
-                <div id="socials">  
-                    <a href="https://www.facebook.com/BhagwanMahavirUniversity/"><i class="ri-facebook-fill"></i></a>
-                    <a href="https://twitter.com/bmusurat"><i class="ri-twitter-fill"></i></a>
-                    <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A15110522&keywords=bhagwan%20mahavir%20university%2C%20surat&origin=RICH_QUERY_SUGGESTION&position=0&searchId=45af121b-8044-4d4e-8cbb-bc0b530042bb&sid=fIm&spellCorrectionEnabled=false"><i class="ri-linkedin-fill"></i></a>
-                    <a href="https://www.instagram.com/bhagwanmahaviruniversity/%20/"><i class="ri-instagram-line"></i></a>
-                </div>
-            </div>
-            <div id="nav">
-                
-                <ul class="sidebar">
-                    <li id="logooo"><img src="./Images/8.webp" alt=""><img id="close" onclick=hidebar() src="./Images/close-large-fill.webp" alt=""></li>
-                    
-                    <li><a href="#">Institutions<i class="ri-arrow-down-s-line"></i></a>  
-                        <ul class="dropdown" id="insti">
-                            <li><a href="https://www.bmusurat.ac.in/institute-homes/BAIT-home/">Bhagwan Arihant Institute of Technology</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCAR-home/">Bhagwan Mahavir Centre for Advance <br> Research</a> 
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCA-home/">Bhagwan Mahavir College of <br> Architechure</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCBAS-home/">Bhagwan Mahavir College of Basic & <br> Applied Sciences</a>
-                            </li>
-                            <li><a href="https://www.bmusurat.ac.in/institute-homes/BMCCMS-home/">Bhagwan Mahavir College of <br> Commerce and Management Studies</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCCA-home/">Bhagwan Mahavir College of Computer <br> Application</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCE-home/">Bhagwan Mahavir College of <br> Education</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCET-home/">Bhagwan Mahavir College of <br> Engineering & Technology</a>
-                            </li>
-                            <li><a href="https://www.bmusurat.ac.in/institute-homes/BMCHM-home/">Bhagwan Mahavir College of Hotel <br> Management</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCLAH-home/">Bhagwan Mahavir College of Liberal <br> Arts and Humanities</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCM-home/">Bhagwan Mahavir College of  <br> Management</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCN-home/">Bhagwan Mahavir College of Nursing</a>
-                            </li>
-                            <li>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCP-home/">Bhagwan Mahavir College of Pharmacy</a>
-                                <a href="#">Bhagwan Mahavir Finishing School</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMP-home/">Bhagwan Mahavir Polytechnic</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMSN-home/">Bhagwan Mahavir School of Nursing</a>
-                            </li>
-                            <li><a href="https://www.bmusurat.ac.in/institute-homes/BMSD-home/">Bhagwan Mahavir Skill Development</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/MSCET-home/">Mahavir Swami College of Engineering <br> & Technology</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/MSIA-home/">Mahavir Swami Institute of <br> Architechure</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/SBCE-home/">Shikshan Bharti College of Education</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Academics<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="acad">
-                            <li><a href="https://www.bmusurat.ac.in/academic-calendar-bmu-in-surat-gujarat/">Academic Calendar</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/bmu-academic-structure-in-surat-gujarat/">Academic Structure</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/under-graduate-ug-programs-bmu-university-surat-gujarat/">UG Programs</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/post-graduate-pg-courses-at-bmu-university-in-surat-gujar/">PG Programs</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/phd-programs-at-bmu-university-in-surat-gujarat/">PhD Programs</a></li>
-                        </ul> 
-                    </li>
-                    <li><a href="#">Examinations<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="exam">
-                            <li><a href="https://www.bmusurat.ac.in/bmu-circular-university-in-surat-gujarat/">Circular</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/time-table-bmu-surat-gujarat/">Time Table</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/result-of-bmu-university-in-surat-gujarat/">Result</a></li>
-                            <li><a href="#">Notices</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Placement<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="place">
-                            <li><a href="https://www.bmusurat.ac.in/bmu-placement-vision-and-mission-university-in-surat-gujarat/">BMU Training & Placement <br>Vision & Mission</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/placement-policy-bmu-university-in-surat-gujarat/">Placement Policy</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/bmu-placement-news-university-surat-gujarat/">BMU Placement News</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/placement-team-bmu-university-in-surat-gujarat/">Placement Team</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/placement-records/">Placement Records</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/training-and-placement-by-bmu-university-in-surat-gujarat/">T and P Activity</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/industries-academic-interactions-at-bmu-surat-gujarat/">Industries - Academic <br> Interactions</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/bmu-collaboration-university-in-gujarat/">Collaborations</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/leading-recruiters-at-bmu-university-in-surat-gujarat/">Leading Recruiters</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/placement-glimpses/">Placement Glimpses</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/important-links-bmu-university-in-surat-gujarat/">Important Links</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Student Corner<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="student">
-                            <li><a href="https://www.bmusurat.ac.in/student-circular-of-bmu-university-in-surat-gujara/">Student Circular</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/faqs-about-bmu-university-in-surat/">FAQs</a></li>
-                            <li><a href="https://www.bmefcolleges.edu.in/courses/">Student Support & <br> Progression</a></li>
-                            <li><a href="#">Industry Meet</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/bmu-convocation-top-university-in-gujarat/">Convocation</a></li>
-                        </ul></li>
-                    <li><a href="#">Infrastructure<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="infra">
-                            <li><a href="https://www.bmusurat.ac.in/campus-at-bmu-university-in-surat-gujarat/">Campus At BMU</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/hostel-at-bmu-university-in-surat/">Hostels At BMU</a></li>
-                        </ul></li>
-                    <li><a href="#">Addmissions<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="addmi">
-                            <li><a href="https://www.bmusurat.ac.in/admission-circular-university-in-surat-gujarat/">Admission Circular</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/flyer-bmu-university-in-gujarat/">Flyer</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/apply-now-at-bmu-top-university-in-surat-gujarat/">Apply Now</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <img src="./Images/8.webp" alt="">
-                <ul class="desktop">
-                    <li class="hideonmobile"><a href="#">Institutions<i class="ri-arrow-down-s-line"></i></a>  
-                        <ul class="dropdown" id="insti">
-                            <li><a href="https://www.bmusurat.ac.in/institute-homes/BAIT-home/">Bhagwan Arihant Institute of Technology</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCAR-home/">Bhagwan Mahavir Centre for Advance <br> Research</a> 
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCA-home/">Bhagwan Mahavir College of <br> Architechure</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCBAS-home/">Bhagwan Mahavir College of Basic & <br> Applied Sciences</a>
-                            </li>
-                            <li><a href="https://www.bmusurat.ac.in/institute-homes/BMCCMS-home/">Bhagwan Mahavir College of <br> Commerce and Management Studies</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCCA-home/">Bhagwan Mahavir College of Computer <br> Application</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCE-home/">Bhagwan Mahavir College of <br> Education</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCET-home/">Bhagwan Mahavir College of <br> Engineering & Technology</a>
-                            </li>
-                            <li><a href="https://www.bmusurat.ac.in/institute-homes/BMCHM-home/">Bhagwan Mahavir College of Hotel <br> Management</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCLAH-home/">Bhagwan Mahavir College of Liberal <br> Arts and Humanities</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCM-home/">Bhagwan Mahavir College of  <br> Management</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCN-home/">Bhagwan Mahavir College of Nursing</a>
-                            </li>
-                            <li>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMCP-home/">Bhagwan Mahavir College of Pharmacy</a>
-                                <a href="#">Bhagwan Mahavir Finishing School</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMP-home/">Bhagwan Mahavir Polytechnic</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/BMSN-home/">Bhagwan Mahavir School of Nursing</a>
-                            </li>
-                            <li><a href="https://www.bmusurat.ac.in/institute-homes/BMSD-home/">Bhagwan Mahavir Skill Development</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/MSCET-home/">Mahavir Swami College of Engineering <br> & Technology</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/MSIA-home/">Mahavir Swami Institute of <br> Architechure</a>
-                                <a href="https://www.bmusurat.ac.in/institute-homes/SBCE-home/">Shikshan Bharti College of Education</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="hideonmobile"><a href="#">Academics<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="acad">
-                            <li><a href="https://www.bmusurat.ac.in/academic-calendar-bmu-in-surat-gujarat/">Academic Calendar</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/bmu-academic-structure-in-surat-gujarat/">Academic Structure</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/under-graduate-ug-programs-bmu-university-surat-gujarat/">UG Programs</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/post-graduate-pg-courses-at-bmu-university-in-surat-gujar/">PG Programs</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/phd-programs-at-bmu-university-in-surat-gujarat/">PhD Programs</a></li>
-                        </ul> 
-                    </li>
-                    <li class="hideonmobile"><a href="#">Examinations<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="exam">
-                            <li><a href="https://www.bmusurat.ac.in/bmu-circular-university-in-surat-gujarat/">Circular</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/time-table-bmu-surat-gujarat/">Time Table</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/result-of-bmu-university-in-surat-gujarat/">Result</a></li>
-                            <li><a href="#">Notices</a></li>
-                        </ul>
-                    </li>
-                    <li class="hideonmobile"><a href="#">Placement<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="place">
-                            <li><a href="https://www.bmusurat.ac.in/bmu-placement-vision-and-mission-university-in-surat-gujarat/">BMU Training & Placement <br>Vision & Mission</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/placement-policy-bmu-university-in-surat-gujarat/">Placement Policy</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/bmu-placement-news-university-surat-gujarat/">BMU Placement News</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/placement-team-bmu-university-in-surat-gujarat/">Placement Team</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/placement-records/">Placement Records</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/training-and-placement-by-bmu-university-in-surat-gujarat/">T and P Activity</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/industries-academic-interactions-at-bmu-surat-gujarat/">Industries - Academic <br> Interactions</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/bmu-collaboration-university-in-gujarat/">Collaborations</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/leading-recruiters-at-bmu-university-in-surat-gujarat/">Leading Recruiters</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/placement-glimpses/">Placement Glimpses</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/important-links-bmu-university-in-surat-gujarat/">Important Links</a></li>
-                        </ul>
-                    </li>
-                    <li class="hideonmobile"><a href="#">Student Corner<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="student">
-                            <li><a href="https://www.bmusurat.ac.in/student-circular-of-bmu-university-in-surat-gujara/">Student Circular</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/faqs-about-bmu-university-in-surat/">FAQs</a></li>
-                            <li><a href="https://www.bmefcolleges.edu.in/courses/">Student Support & <br> Progression</a></li>
-                            <li><a href="#">Industry Meet</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/bmu-convocation-top-university-in-gujarat/">Convocation</a></li>
-                        </ul></li>
-                    <li class="hideonmobile"><a href="#">Infrastructure<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="infra">
-                            <li><a href="https://www.bmusurat.ac.in/campus-at-bmu-university-in-surat-gujarat/">Campus At BMU</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/hostel-at-bmu-university-in-surat/">Hostels At BMU</a></li>
-                        </ul></li>
-                    <li class="hideonmobile"><a href="#">Addmissions<i class="ri-arrow-down-s-line"></i></a>
-                        <ul class="dropdown" id="addmi">
-                            <li><a href="https://www.bmusurat.ac.in/admission-circular-university-in-surat-gujarat/">Admission Circular</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/flyer-bmu-university-in-gujarat/">Flyer</a></li>
-                            <li><a href="https://www.bmusurat.ac.in/apply-now-at-bmu-top-university-in-surat-gujarat/">Apply Now</a></li>
-                        </ul>
-                    </li>
-                    <li id="burger" onclick=showSidebar()><a href="#"><i class="ri-menu-fill"></i></a></li>
-                </ul>
-            </div>
-            <div id="hero">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="./Images/2.webp" alt=""> <div id="overtext">
-                            <div id="orange"></div>
-                            <div id="stext">
-                                <h1>BHAGWAN MAHAVIR UNIVERSITY</h1>
-                                <div id="border"></div>
-                            </div>
-                      </div>
-                        </div>
-                      <div class="swiper-slide"><img src="./Images/9.webp" alt=""> 
-                        <div id="overtext">
-                            <div id="orange"></div>
-                            <div id="stext">
-                                <h1>FACULTIES</h1>
-                                <div id="border"></div>
-                            </div>
-                      </div>
-                    </div>
-                      <!-- <div class="swiper-slide"><img src="./Images/bluebmu.jpg" alt=""></div> -->
-                      <div class="swiper-slide"><img src="./Images/1.webp" alt="">
-                        <div id="overtext">
-                            <div id="orange"></div>
-                            <div id="stext">
-                                <h1>2nd Convocation-BMU</h1>
-                                <div id="border"></div>
-                            </div>
-                      </div>
-                    </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
+      <div id="page1" data-scroll>
+        <div id="details">
+          <div id="career">
+            <a
+              href="https://www.bmusurat.ac.in/career-expo-at-bmu-university-in-surat-gujarat/"
+              >Career Expo 2024</a
+            >
+            <a href="https://journals.bmusurat.ac.in/samhita/">Journals</a>
+            <a href="#">Alumni</a>
+            <a href="https://www.bmusurat.ac.in/career-page/">Career At BMU</a>
+            <a href="#">ABC Scheme</a>
+          </div>
+          <div id="socials">
+            <a href="https://www.facebook.com/BhagwanMahavirUniversity/"
+              ><i class="ri-facebook-fill"></i
+            ></a>
+            <a href="https://twitter.com/bmusurat"
+              ><i class="ri-twitter-fill"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A15110522&keywords=bhagwan%20mahavir%20university%2C%20surat&origin=RICH_QUERY_SUGGESTION&position=0&searchId=45af121b-8044-4d4e-8cbb-bc0b530042bb&sid=fIm&spellCorrectionEnabled=false"
+              ><i class="ri-linkedin-fill"></i
+            ></a>
+            <a href="https://www.instagram.com/bhagwanmahaviruniversity/%20/"
+              ><i class="ri-instagram-line"></i
+            ></a>
+          </div>
+        </div>
+        <div id="nav">
+          <ul class="sidebar">
+            <li id="logooo">
+              <img src="./Images/8.webp" alt="" /><img
+                id="close"
+                onclick="hidebar()"
+                src="./Images/close-large-fill.webp"
+                alt=""
+              />
+            </li>
+
+            <li>
+              <a href="#">Institutions<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="insti">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BAIT-home/"
+                    >Bhagwan Arihant Institute of Technology</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCAR-home/"
+                    >Bhagwan Mahavir Centre for Advance <br />
+                    Research</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCA-home/"
+                    >Bhagwan Mahavir College of <br />
+                    Architechure</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCBAS-home/"
+                    >Bhagwan Mahavir College of Basic & <br />
+                    Applied Sciences</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCCMS-home/"
+                    >Bhagwan Mahavir College of <br />
+                    Commerce and Management Studies</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCCA-home/"
+                    >Bhagwan Mahavir College of Computer <br />
+                    Application</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCE-home/"
+                    >Bhagwan Mahavir College of <br />
+                    Education</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCET-home/"
+                    >Bhagwan Mahavir College of <br />
+                    Engineering & Technology</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCHM-home/"
+                    >Bhagwan Mahavir College of Hotel <br />
+                    Management</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCLAH-home/"
+                    >Bhagwan Mahavir College of Liberal <br />
+                    Arts and Humanities</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCM-home/"
+                    >Bhagwan Mahavir College of <br />
+                    Management</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCN-home/"
+                    >Bhagwan Mahavir College of Nursing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCP-home/"
+                    >Bhagwan Mahavir College of Pharmacy</a
+                  >
+                  <a href="#">Bhagwan Mahavir Finishing School</a>
+                  <a href="https://www.bmusurat.ac.in/institute-homes/BMP-home/"
+                    >Bhagwan Mahavir Polytechnic</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMSN-home/"
+                    >Bhagwan Mahavir School of Nursing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMSD-home/"
+                    >Bhagwan Mahavir Skill Development</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/MSCET-home/"
+                    >Mahavir Swami College of Engineering <br />
+                    & Technology</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/MSIA-home/"
+                    >Mahavir Swami Institute of <br />
+                    Architechure</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/SBCE-home/"
+                    >Shikshan Bharti College of Education</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Academics<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="acad">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/academic-calendar-bmu-in-surat-gujarat/"
+                    >Academic Calendar</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-academic-structure-in-surat-gujarat/"
+                    >Academic Structure</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/under-graduate-ug-programs-bmu-university-surat-gujarat/"
+                    >UG Programs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/post-graduate-pg-courses-at-bmu-university-in-surat-gujar/"
+                    >PG Programs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/phd-programs-at-bmu-university-in-surat-gujarat/"
+                    >PhD Programs</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Examinations<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="exam">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-circular-university-in-surat-gujarat/"
+                    >Circular</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/time-table-bmu-surat-gujarat/"
+                    >Time Table</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/result-of-bmu-university-in-surat-gujarat/"
+                    >Result</a
+                  >
+                </li>
+                <li><a href="#">Notices</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Placement<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="place">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-placement-vision-and-mission-university-in-surat-gujarat/"
+                    >BMU Training & Placement <br />Vision & Mission</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/placement-policy-bmu-university-in-surat-gujarat/"
+                    >Placement Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-placement-news-university-surat-gujarat/"
+                    >BMU Placement News</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/placement-team-bmu-university-in-surat-gujarat/"
+                    >Placement Team</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.bmusurat.ac.in/placement-records/"
+                    >Placement Records</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/training-and-placement-by-bmu-university-in-surat-gujarat/"
+                    >T and P Activity</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/industries-academic-interactions-at-bmu-surat-gujarat/"
+                    >Industries - Academic <br />
+                    Interactions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-collaboration-university-in-gujarat/"
+                    >Collaborations</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/leading-recruiters-at-bmu-university-in-surat-gujarat/"
+                    >Leading Recruiters</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.bmusurat.ac.in/placement-glimpses/"
+                    >Placement Glimpses</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/important-links-bmu-university-in-surat-gujarat/"
+                    >Important Links</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Student Corner<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="student">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/student-circular-of-bmu-university-in-surat-gujara/"
+                    >Student Circular</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/faqs-about-bmu-university-in-surat/"
+                    >FAQs</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.bmefcolleges.edu.in/courses/"
+                    >Student Support & <br />
+                    Progression</a
+                  >
+                </li>
+                <li><a href="#">Industry Meet</a></li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-convocation-top-university-in-gujarat/"
+                    >Convocation</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Infrastructure<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="infra">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/campus-at-bmu-university-in-surat-gujarat/"
+                    >Campus At BMU</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/hostel-at-bmu-university-in-surat/"
+                    >Hostels At BMU</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Addmissions<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="addmi">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/admission-circular-university-in-surat-gujarat/"
+                    >Admission Circular</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/flyer-bmu-university-in-gujarat/"
+                    >Flyer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/apply-now-at-bmu-top-university-in-surat-gujarat/"
+                    >Apply Now</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <img src="./Images/8.webp" alt="" />
+          <ul class="desktop">
+            <li class="hideonmobile">
+              <a href="#">Institutions<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="insti">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BAIT-home/"
+                    >Bhagwan Arihant Institute of Technology</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCAR-home/"
+                    >Bhagwan Mahavir Centre for Advance <br />
+                    Research</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCA-home/"
+                    >Bhagwan Mahavir College of <br />
+                    Architechure</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCBAS-home/"
+                    >Bhagwan Mahavir College of Basic & <br />
+                    Applied Sciences</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCCMS-home/"
+                    >Bhagwan Mahavir College of <br />
+                    Commerce and Management Studies</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCCA-home/"
+                    >Bhagwan Mahavir College of Computer <br />
+                    Application</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCE-home/"
+                    >Bhagwan Mahavir College of <br />
+                    Education</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCET-home/"
+                    >Bhagwan Mahavir College of <br />
+                    Engineering & Technology</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCHM-home/"
+                    >Bhagwan Mahavir College of Hotel <br />
+                    Management</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCLAH-home/"
+                    >Bhagwan Mahavir College of Liberal <br />
+                    Arts and Humanities</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCM-home/"
+                    >Bhagwan Mahavir College of <br />
+                    Management</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCN-home/"
+                    >Bhagwan Mahavir College of Nursing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMCP-home/"
+                    >Bhagwan Mahavir College of Pharmacy</a
+                  >
+                  <a href="#">Bhagwan Mahavir Finishing School</a>
+                  <a href="https://www.bmusurat.ac.in/institute-homes/BMP-home/"
+                    >Bhagwan Mahavir Polytechnic</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMSN-home/"
+                    >Bhagwan Mahavir School of Nursing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/BMSD-home/"
+                    >Bhagwan Mahavir Skill Development</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/MSCET-home/"
+                    >Mahavir Swami College of Engineering <br />
+                    & Technology</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/MSIA-home/"
+                    >Mahavir Swami Institute of <br />
+                    Architechure</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/institute-homes/SBCE-home/"
+                    >Shikshan Bharti College of Education</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="hideonmobile">
+              <a href="#">Academics<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="acad">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/academic-calendar-bmu-in-surat-gujarat/"
+                    >Academic Calendar</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-academic-structure-in-surat-gujarat/"
+                    >Academic Structure</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/under-graduate-ug-programs-bmu-university-surat-gujarat/"
+                    >UG Programs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/post-graduate-pg-courses-at-bmu-university-in-surat-gujar/"
+                    >PG Programs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/phd-programs-at-bmu-university-in-surat-gujarat/"
+                    >PhD Programs</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="hideonmobile">
+              <a href="#">Examinations<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="exam">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-circular-university-in-surat-gujarat/"
+                    >Circular</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/time-table-bmu-surat-gujarat/"
+                    >Time Table</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/result-of-bmu-university-in-surat-gujarat/"
+                    >Result</a
+                  >
+                </li>
+                <li><a href="#">Notices</a></li>
+              </ul>
+            </li>
+            <li class="hideonmobile">
+              <a href="#">Placement<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="place">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-placement-vision-and-mission-university-in-surat-gujarat/"
+                    >BMU Training & Placement <br />Vision & Mission</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/placement-policy-bmu-university-in-surat-gujarat/"
+                    >Placement Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-placement-news-university-surat-gujarat/"
+                    >BMU Placement News</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/placement-team-bmu-university-in-surat-gujarat/"
+                    >Placement Team</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.bmusurat.ac.in/placement-records/"
+                    >Placement Records</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/training-and-placement-by-bmu-university-in-surat-gujarat/"
+                    >T and P Activity</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/industries-academic-interactions-at-bmu-surat-gujarat/"
+                    >Industries - Academic <br />
+                    Interactions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-collaboration-university-in-gujarat/"
+                    >Collaborations</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/leading-recruiters-at-bmu-university-in-surat-gujarat/"
+                    >Leading Recruiters</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.bmusurat.ac.in/placement-glimpses/"
+                    >Placement Glimpses</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/important-links-bmu-university-in-surat-gujarat/"
+                    >Important Links</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="hideonmobile">
+              <a href="#">Student Corner<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="student">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/student-circular-of-bmu-university-in-surat-gujara/"
+                    >Student Circular</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/faqs-about-bmu-university-in-surat/"
+                    >FAQs</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.bmefcolleges.edu.in/courses/"
+                    >Student Support & <br />
+                    Progression</a
+                  >
+                </li>
+                <li><a href="#">Industry Meet</a></li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-convocation-top-university-in-gujarat/"
+                    >Convocation</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="hideonmobile">
+              <a href="#">Infrastructure<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="infra">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/campus-at-bmu-university-in-surat-gujarat/"
+                    >Campus At BMU</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/hostel-at-bmu-university-in-surat/"
+                    >Hostels At BMU</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="hideonmobile">
+              <a href="#">Addmissions<i class="ri-arrow-down-s-line"></i></a>
+              <ul class="dropdown" id="addmi">
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/admission-circular-university-in-surat-gujarat/"
+                    >Admission Circular</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/flyer-bmu-university-in-gujarat/"
+                    >Flyer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.bmusurat.ac.in/apply-now-at-bmu-top-university-in-surat-gujarat/"
+                    >Apply Now</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="burger" onclick="showSidebar()">
+              <a href="#"><i class="ri-menu-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div id="hero">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./Images/2.webp" alt="" />
+                <div id="overtext">
+                  <div id="orange"></div>
+                  <div id="stext">
+                    <h1>BHAGWAN MAHAVIR UNIVERSITY</h1>
+                    <div id="border"></div>
                   </div>
-                  <div id="circle" class="">
-                      <img src="./Images/3.webp" alt="">
-                      <video src="./Images/c72af10b.mp4"></video>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./Images/9.webp" alt="" />
+                <div id="overtext">
+                  <div id="orange"></div>
+                  <div id="stext">
+                    <h1>FACULTIES</h1>
+                    <div id="border"></div>
                   </div>
-                  
-            </div>
-        </div>
-        <div id="page2" data-scroll >
-            <div id="unique">
-                <div id="u1"></div>
-                <div id="u2"></div>
-                <div id="u3"></div>
-            </div>
-            <div id="verticalline"></div>
-            <div id="page2second">
-                <div id="line"></div>
-                <h2>Bhagwan mahavir university</h2>
-                <p>Bhagwan Mahavir University, run by <span>BHAGWAN MAHAVIR EDUCATION FOUNDATION</span> is committed to inclusion and innovation in education through philanthropy and pioneering initiatives. Bhagwan Mahavir University provides world class education and empowering opportunities for all sections of society. As the world of business and job opportunities are changing rapidly, we are evolving to make our students not just job ready but also life ready, to help them see learning as a continuous  process and to become future- ready professionals.</p>
-                <a href="#">Explore Now</a>
-            </div>
-            <div id="page2third">
-                <h1>About <br> us</h1>
-            </div>
-        </div>
-        <div id="page3" data-scroll>
-            <div id="page3title">
-                <h1>Latest Circular</h1>
-            <div id="underline"></div>
-            </div>
-            <div class="circular" data-image="https://plus.unsplash.com/premium_photo-1661762623756-b64eafacbae2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-                <h1>9th International Yoga Day (IDY-2023)</h1>
-                <h3><i class="ri-calendar-event-line"></i>20-06-2023</h3>
-            </div>
-            <div class="circular" data-image="https://images.unsplash.com/photo-1516827003699-2880f453d93b?q=80&w=1592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-                <h1>Surya Namashkar</h1>
-                <h3><i class="ri-calendar-event-line"></i>15-06-2023</h3>
-            </div>
-            <div class="circular" data-image="./Images/1.webp">
-                <h1>2nd Convocation of Bhagwan Mahavir University</h1>
-                <h3><i class="ri-calendar-event-line"></i>25-04-2023</h3>
-            </div>
-            <div class="circular" data-image="https://miro.medium.com/v2/resize:fit:952/0*LG8EHrr9g_jep0w3.png">
-                <h1>Academic Bank of Credit (ABC)</h1>
-                <h3><i class="ri-calendar-event-line"></i>21-03-2023</h3>
-            </div>
-            <div class="circular" data-image="./Images/3.webp">
-                <h1>2022-23-BMU-Extention of date for SODH by KCG,<br> Dept. of Education, Govt. of Gujarat</h1>
-                <h3><i class="ri-calendar-event-line"></i>28-02-2023</h3>
-            </div>
-            <div class="circular" data-image="https://miro.medium.com/v2/resize:fit:952/0*LG8EHrr9g_jep0w3.png">
-                <h1>Academic Bank of Credit (ABC)</h1>
-                <h3><i class="ri-calendar-event-line"></i>21-03-2023</h3>
-            </div>
-        </div>
-        <div id="page4" data-scroll>
-            <div id="ball">
-                <div id="ball1"></div>
-                <div id="ball2"></div>
-                <div id="ball3"></div>
-            </div>
-            <div id="page4title">
-                <h1>Popular Departments</h1>
-                <div id="underline4"></div>
-            </div>
-            <div id="depart-container">
-                <div class="depart">
-                <div id="dpart1">
-                    <h1>Computer Engineering</h1>
-                    <a href="https://www.bmusurat.ac.in/institutions-program/mscet-computer-engineering-program/">View Course</a>
                 </div>
-                <div id="dpart2">
-                    <img src="./Images/3.webp" alt="">
+              </div>
+              <!-- <div class="swiper-slide"><img src="./Images/bluebmu.jpg" alt=""></div> -->
+              <div class="swiper-slide">
+                <img src="./Images/1.webp" alt="" />
+                <div id="overtext">
+                  <div id="orange"></div>
+                  <div id="stext">
+                    <h1>2nd Convocation-BMU</h1>
+                    <div id="border"></div>
+                  </div>
                 </div>
-                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div id="circle" class="">
+            <img src="./Images/3.webp" alt="" />
+            <video src="./Images/c72af10b.mp4"></video>
+          </div>
+        </div>
+      </div>
+      <div id="page2" data-scroll>
+        <div id="unique">
+          <div id="u1"></div>
+          <div id="u2"></div>
+          <div id="u3"></div>
+        </div>
+        <div id="verticalline"></div>
+        <div id="page2second">
+          <div id="line"></div>
+          <h2>Bhagwan mahavir university</h2>
+          <p>
+            Bhagwan Mahavir University, run by
+            <span>BHAGWAN MAHAVIR EDUCATION FOUNDATION</span> is committed to
+            inclusion and innovation in education through philanthropy and
+            pioneering initiatives. Bhagwan Mahavir University provides world
+            class education and empowering opportunities for all sections of
+            society. As the world of business and job opportunities are changing
+            rapidly, we are evolving to make our students not just job ready but
+            also life ready, to help them see learning as a continuous process
+            and to become future- ready professionals.
+          </p>
+          <a href="#">Explore Now</a>
+        </div>
+        <div id="page2third">
+          <h1>
+            About <br />
+            us
+          </h1>
+        </div>
+      </div>
+      <div id="page3" data-scroll>
+        <div id="page3title">
+          <h1>Latest Circular</h1>
+          <div id="underline"></div>
+        </div>
+        <div
+          class="circular"
+          data-image="https://plus.unsplash.com/premium_photo-1661762623756-b64eafacbae2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        >
+          <h1>9th International Yoga Day (IDY-2023)</h1>
+          <h3><i class="ri-calendar-event-line"></i>20-06-2023</h3>
+        </div>
+        <div
+          class="circular"
+          data-image="https://images.unsplash.com/photo-1516827003699-2880f453d93b?q=80&w=1592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        >
+          <h1>Surya Namashkar</h1>
+          <h3><i class="ri-calendar-event-line"></i>15-06-2023</h3>
+        </div>
+        <div class="circular" data-image="./Images/1.webp">
+          <h1>2nd Convocation of Bhagwan Mahavir University</h1>
+          <h3><i class="ri-calendar-event-line"></i>25-04-2023</h3>
+        </div>
+        <div
+          class="circular"
+          data-image="https://miro.medium.com/v2/resize:fit:952/0*LG8EHrr9g_jep0w3.png"
+        >
+          <h1>Academic Bank of Credit (ABC)</h1>
+          <h3><i class="ri-calendar-event-line"></i>21-03-2023</h3>
+        </div>
+        <div class="circular" data-image="./Images/3.webp">
+          <h1>
+            2022-23-BMU-Extention of date for SODH by KCG,<br />
+            Dept. of Education, Govt. of Gujarat
+          </h1>
+          <h3><i class="ri-calendar-event-line"></i>28-02-2023</h3>
+        </div>
+        <div
+          class="circular"
+          data-image="https://miro.medium.com/v2/resize:fit:952/0*LG8EHrr9g_jep0w3.png"
+        >
+          <h1>Academic Bank of Credit (ABC)</h1>
+          <h3><i class="ri-calendar-event-line"></i>21-03-2023</h3>
+        </div>
+      </div>
+      <div id="page4" data-scroll>
+        <div id="ball">
+          <div id="ball1"></div>
+          <div id="ball2"></div>
+          <div id="ball3"></div>
+        </div>
+        <div id="page4title">
+          <h1>Popular Departments</h1>
+          <div id="underline4"></div>
+        </div>
+        <div id="depart-container">
+          <div class="depart">
+            <div id="dpart1">
+              <h1>Computer Engineering</h1>
+              <a
+                href="https://www.bmusurat.ac.in/institutions-program/mscet-computer-engineering-program/"
+                >View Course</a
+              >
+            </div>
+            <div id="dpart2">
+              <img src="./Images/3.webp" alt="" />
+            </div>
+          </div>
 
-                <div class="depart">
-                <div id="dpart1">
-                    <h1>Mechanical Engineering</h1>
-                    <a href="https://www.bmusurat.ac.in/institutions-program/mscet-mechanical-engineering-program/">View Course</a>
-                </div>
-                <div id="dpart2">
-                    <img src="./Images/3.webp" alt="">
-                </div>
-                </div>
-                <div class="depart">
-                <div id="dpart1">
-                    <h1>Robotics And Automation Engineering</h1>
-                    <a href="https://www.bmusurat.ac.in/institutions-program/bait-robotics-and-automation-engineering-program/">View Course</a>
-                </div>
-                <div id="dpart2">
-                    <img src="./Images/3.webp" alt="">
-                </div>
-                </div>
-                <div class="depart">
-                <div id="dpart1">
-                    <h1>Aeronautical Engineering</h1>
-                    <a href="https://www.bmusurat.ac.in/institutions-program/bait-aeronautical-engineering-programs/">View Course</a>
-                </div>
-                <div id="dpart2">
-                    <img src="./Images/3.webp" alt="">
-                </div>
-                </div>
-                <div class="depart">
-                <div id="dpart1">
-                    <h1>Chemical Engineering</h1>
-                    <a href="https://www.bmusurat.ac.in/institutions-program/bait-chemical-engineering-programs/">View Course</a>
-                </div>
-                <div id="dpart2">
-                    <img src="./Images/3.webp" alt="">
-                </div>
-                </div>
-                <div class="depart">
-                <div id="dpart1">
-                    <h1>Information Technology</h1>
-                    <a href="https://www.bmusurat.ac.in/institutions-program/bait-information-technology-program/">View Course</a>
-                </div>
-                <div id="dpart2">
-                    <img src="./Images/3.webp" alt="">
-                </div>
-                </div>
+          <div class="depart">
+            <div id="dpart1">
+              <h1>Mechanical Engineering</h1>
+              <a
+                href="https://www.bmusurat.ac.in/institutions-program/mscet-mechanical-engineering-program/"
+                >View Course</a
+              >
             </div>
-        </div>
-        <div id="page5">
-            <div id="page5-content">
-                <div id="ugc">
-                    <div id="ugc-part1">
-                        <i class="ri-contract-line"></i>
-                        <h1>UGC & AICTE Accredited</h1>
-                    </div>
-                    <div id="ugc-part2">
-                        <p>
-                            Bhagwan Mahavir University proudly holds dual accreditations from the UGC and AICTE, symbolizing its unwavering commitment to exceptional academic standards and cutting-edge technical education. These accreditations position the university as a beacon of excellence, offering a high-quality, comprehensive education for students to excel in academia and the professional world.
-                        </p>
-                    </div>
-                        <a href="https://deb.ugc.ac.in/">Explore Now</a>
-
-                </div>
-                <div id="ugc">
-                    <div id="ugc-part1">
-                        <i class="ri-building-2-line"></i>
-                        <h1>INFRASTRUCTURE</h1>
-                    </div>
-                    <div id="ugc-part2">
-                        <p>
-                            Bhagwan Mahavir University, with its modern and expansive campus, is a hub of academic excellence. Diverse colleges seamlessly integrate, fostering interdisciplinary collaboration. State-of-the-art facilities enrich the learning experience, embodying an evolving ecosystem that nurtures knowledge, innovation, and personal growth. Beyond structures, it's a vibrant community shaping future leaders across diverse disciplines.                        </p>
-                    </div>
-                        <a href="#">Explore Now</a>
-
-                </div>
-                <div id="ugc">
-                    <div id="ugc-part1">
-                        <i class="ri-book-open-line"></i>
-                        <h1>STUDENT PROGRESSION & SUPPORT</h1>
-                    </div>
-                    <div id="ugc-part2">
-                        <p>
-                            Bhagwan Mahavir University, student progression is paramount. With an esteemed faculty emphasizing practical learning in a supportive environment, rigorous monitoring ensures personalized attention for a comprehensive educational experience. As a cornerstone of support, the university blends theoretical insights with hands-on exposure, guided by highly qualified faculty, ensuring students thrive in their academic journey.
-                        </div>
-                        <a href="#">Explore Now</a>
-
-                </div>
+            <div id="dpart2">
+              <img src="./Images/3.webp" alt="" />
             </div>
+          </div>
+          <div class="depart">
+            <div id="dpart1">
+              <h1>Robotics And Automation Engineering</h1>
+              <a
+                href="https://www.bmusurat.ac.in/institutions-program/bait-robotics-and-automation-engineering-program/"
+                >View Course</a
+              >
+            </div>
+            <div id="dpart2">
+              <img src="./Images/3.webp" alt="" />
+            </div>
+          </div>
+          <div class="depart">
+            <div id="dpart1">
+              <h1>Aeronautical Engineering</h1>
+              <a
+                href="https://www.bmusurat.ac.in/institutions-program/bait-aeronautical-engineering-programs/"
+                >View Course</a
+              >
+            </div>
+            <div id="dpart2">
+              <img src="./Images/3.webp" alt="" />
+            </div>
+          </div>
+          <div class="depart">
+            <div id="dpart1">
+              <h1>Chemical Engineering</h1>
+              <a
+                href="https://www.bmusurat.ac.in/institutions-program/bait-chemical-engineering-programs/"
+                >View Course</a
+              >
+            </div>
+            <div id="dpart2">
+              <img src="./Images/3.webp" alt="" />
+            </div>
+          </div>
+          <div class="depart">
+            <div id="dpart1">
+              <h1>Information Technology</h1>
+              <a
+                href="https://www.bmusurat.ac.in/institutions-program/bait-information-technology-program/"
+                >View Course</a
+              >
+            </div>
+            <div id="dpart2">
+              <img src="./Images/3.webp" alt="" />
+            </div>
+          </div>
         </div>
-        <div id="page6">
-            <div id="moving">
-                <div class="elem">
-                    <img src="./Images/101.webp" alt="">
-                    <img src="./Images/102.webp" alt="">
-                    <img src="./Images/103.webp" alt="">
-                    <img src="./Images/104.webp" alt="">
-                    <img src="./Images/105.webp" alt="">
-                    <img src="./Images/106.webp" alt="">
-                    <img src="./Images/107.webp" alt="">
-                </div>
-                <div class="elem">
-                    <img src="./Images/101.webp" alt="">
-                    <img src="./Images/102.webp" alt="">
-                    <img src="./Images/103.webp" alt="">
-                    <img src="./Images/104.webp" alt="">
-                    <img src="./Images/105.webp" alt="">
-                    <img src="./Images/106.webp" alt="">
-                    <img src="./Images/107.webp" alt="">
-                </div>
+      </div>
+      <div id="page5">
+        <div id="page5-content">
+          <div id="ugc">
+            <div id="ugc-part1">
+              <i class="ri-contract-line"></i>
+              <h1>UGC & AICTE Accredited</h1>
+            </div>
+            <div id="ugc-part2">
+              <p>
+                Bhagwan Mahavir University proudly holds dual accreditations
+                from the UGC and AICTE, symbolizing its unwavering commitment to
+                exceptional academic standards and cutting-edge technical
+                education. These accreditations position the university as a
+                beacon of excellence, offering a high-quality, comprehensive
+                education for students to excel in academia and the professional
+                world.
+              </p>
+            </div>
+            <a href="https://deb.ugc.ac.in/">Explore Now</a>
+          </div>
+          <div id="ugc">
+            <div id="ugc-part1">
+              <i class="ri-building-2-line"></i>
+              <h1>INFRASTRUCTURE</h1>
+            </div>
+            <div id="ugc-part2">
+              <p>
+                Bhagwan Mahavir University, with its modern and expansive
+                campus, is a hub of academic excellence. Diverse colleges
+                seamlessly integrate, fostering interdisciplinary collaboration.
+                State-of-the-art facilities enrich the learning experience,
+                embodying an evolving ecosystem that nurtures knowledge,
+                innovation, and personal growth. Beyond structures, it's a
+                vibrant community shaping future leaders across diverse
+                disciplines.
+              </p>
+            </div>
+            <a href="#">Explore Now</a>
+          </div>
+          <div id="ugc">
+            <div id="ugc-part1">
+              <i class="ri-book-open-line"></i>
+              <h1>STUDENT PROGRESSION & SUPPORT</h1>
+            </div>
+            <div id="ugc-part2">
+              <p>
+                Bhagwan Mahavir University, student progression is paramount.
+                With an esteemed faculty emphasizing practical learning in a
+                supportive environment, rigorous monitoring ensures personalized
+                attention for a comprehensive educational experience. As a
+                cornerstone of support, the university blends theoretical
+                insights with hands-on exposure, guided by highly qualified
+                faculty, ensuring students thrive in their academic journey.
+              </p>
             </div>
 
+            <a href="#">Explore Now</a>
+          </div>
         </div>
-        <div id="page7">
-            <div id="footer">
-                <div id="foot1">
-                    <img src="./Images/7.webp" alt="">
-                    <div id="footsocial">  
-                        <a href="https://www.facebook.com/BhagwanMahavirUniversity/"><i class="ri-facebook-fill"></i></a>
-                    <a href="https://twitter.com/bmusurat"><i class="ri-twitter-fill"></i></a>
-                    <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A15110522&keywords=bhagwan%20mahavir%20university%2C%20surat&origin=RICH_QUERY_SUGGESTION&position=0&searchId=45af121b-8044-4d4e-8cbb-bc0b530042bb&sid=fIm&spellCorrectionEnabled=false"><i class="ri-linkedin-fill"></i></a>
-                    <a href="https://www.instagram.com/bhagwanmahaviruniversity/%20/"><i class="ri-instagram-line"></i></a>
-                    </div>
-                </div>
-                <div id="foot2">
-                    <div id="qlink">
-                        <h1>Quick Links</h1>
-                        <div id="links">
-                            <div id="link1">
-                                <a href="https://play.google.com/store/apps/details?id=com.infinity.infoway.bmef&pli=1">BMU Mobile App</a>
-                                <a href="https://www.bmefcolleges.edu.in/">BMEF Colleges</a>
-                                <a href="https://nad.gov.in/">National Academic Depository</a>
-                                <a href="https://www.bmusurat.ac.in/wp-content/uploads/2022/02/BMU_UNIVERSITY_GRANTS_COMMISSION.pdf">Mandatory Disclosure</a>
-                                <a href="https://www.bmusurat.ac.in/wp-content/uploads/2022/02/Covid_Task_Force_BMU.pdf">COVID-19 Task Force</a>
-                                <a href="https://www.bmusurat.ac.in/wp-content/uploads/2023/05/BMU-Annual-Report-21-22_R11-1.pdf">Annual Report</a>
-                                <a href="https://www.bmusurat.ac.in/wp-content/uploads/2022/07/BMU_INDUSTRIES-AND-INSTITUTE-INTERACTION-CELL.pdf">III CELL</a>
-                                <a href="https://www.bmusurat.ac.in/bmu-convocation-top-university-in-gujarat/">Convocation</a>
-                            </div>
-                            <div id="link2">
-                                <a href="https://www.abc.gov.in/">Academic Bank Of Credits</a>
-                                <a href="https://www.bmusurat.ac.in/grievance-bmu-university-in-surat/">Grievance</a>
-                                <a href="https://www.ugc.ac.in/">UGC</a>
-                                <a href="https://www.bmusurat.ac.in/wp-content/uploads/2023/01/2022-23-BMU-461-Holidays-List-for-BMU-2024-_0001.pdf">List of Holidays</a>
-                                <a href="https://www.bmusurat.ac.in/important-links-bmu-university-in-surat-gujarat/">Important Links</a>
-                                <a href="https://www.bmusurat.ac.in/wp-content/uploads/2022/06/Final-BMU-information-Brouchure.pdf">Brochures</a>
-                                <a href="https://www.bmusurat.ac.in/wp-content/uploads/2022/07/BMU_RESEARCH-AND-DEVELOPMENT-CELL.pdf">R & D CELL</a>
-                                <a href="https://www.bmusurat.ac.in/wp-content/uploads/2022/11/BMU_Ethics.pdf">Ethics_BMU</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="contact">
-                        <h1>Contact us</h1>
-                        <h3><i class="ri-community-line"></i><a href="https://www.google.com/maps/place/Bhagwan+Mahavir+University/@21.1401463,72.7941876,17z/data=!3m1!4b1!4m6!3m5!1s0x3be04df8c842a501:0x263c40ab54c154c6!8m2!3d21.1401463!4d72.7941876!16s%2Fg%2F11bt_91z4l?entry=ttu">Sr. No. 149, VIP Road, Bharthana <br>Road, Vesu, Surat, Gujarat <br> 395007.</a></h3>
-                        <h3><i class="ri-whatsapp-line"></i><a href="#">+91 75758 07374/75</a></h3>
-                        <h3><i class="ri-phone-line"></i><a href="#">+91 26167 70101/02/03/04</a></h3>
-                        <h3><i class="ri-mail-line"></i><a href="">info@bmusurat.ac.in</a></h3>
-                        <h3><i class="ri-earth-fill"></i><a href="#">www.bmusurat.ac.in</a></h3>
-                    </div>
-                </div>
-                <div id="copyright">
-                    <h1>© 2022 Bhagwan Mahavir University. All Rights Reserved.</h1>
-                </div>
+      </div>
+      <div id="page6">
+        <div id="moving">
+          <div class="elem">
+            <img src="./Images/101.webp" alt="" />
+            <img src="./Images/102.webp" alt="" />
+            <img src="./Images/103.webp" alt="" />
+            <img src="./Images/104.webp" alt="" />
+            <img src="./Images/105.webp" alt="" />
+            <img src="./Images/106.webp" alt="" />
+            <img src="./Images/107.webp" alt="" />
+          </div>
+          <div class="elem">
+            <img src="./Images/101.webp" alt="" />
+            <img src="./Images/102.webp" alt="" />
+            <img src="./Images/103.webp" alt="" />
+            <img src="./Images/104.webp" alt="" />
+            <img src="./Images/105.webp" alt="" />
+            <img src="./Images/106.webp" alt="" />
+            <img src="./Images/107.webp" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="page7">
+        <div id="footer">
+          <div id="foot1">
+            <img src="./Images/7.webp" alt="" />
+            <div id="footsocial">
+              <a href="https://www.facebook.com/BhagwanMahavirUniversity/"
+                ><i class="ri-facebook-fill"></i
+              ></a>
+              <a href="https://twitter.com/bmusurat"
+                ><i class="ri-twitter-fill"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A15110522&keywords=bhagwan%20mahavir%20university%2C%20surat&origin=RICH_QUERY_SUGGESTION&position=0&searchId=45af121b-8044-4d4e-8cbb-bc0b530042bb&sid=fIm&spellCorrectionEnabled=false"
+                ><i class="ri-linkedin-fill"></i
+              ></a>
+              <a href="https://www.instagram.com/bhagwanmahaviruniversity/%20/"
+                ><i class="ri-instagram-line"></i
+              ></a>
             </div>
+          </div>
+          <div id="foot2">
+            <div id="qlink">
+              <h1>Quick Links</h1>
+              <div id="links">
+                <div id="link1">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.infinity.infoway.bmef&pli=1"
+                    >BMU Mobile App</a
+                  >
+                  <a href="https://www.bmefcolleges.edu.in/">BMEF Colleges</a>
+                  <a href="https://nad.gov.in/">National Academic Depository</a>
+                  <a
+                    href="https://www.bmusurat.ac.in/wp-content/uploads/2022/02/BMU_UNIVERSITY_GRANTS_COMMISSION.pdf"
+                    >Mandatory Disclosure</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/wp-content/uploads/2022/02/Covid_Task_Force_BMU.pdf"
+                    >COVID-19 Task Force</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/wp-content/uploads/2023/05/BMU-Annual-Report-21-22_R11-1.pdf"
+                    >Annual Report</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/wp-content/uploads/2022/07/BMU_INDUSTRIES-AND-INSTITUTE-INTERACTION-CELL.pdf"
+                    >III CELL</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/bmu-convocation-top-university-in-gujarat/"
+                    >Convocation</a
+                  >
+                </div>
+                <div id="link2">
+                  <a href="https://www.abc.gov.in/">Academic Bank Of Credits</a>
+                  <a
+                    href="https://www.bmusurat.ac.in/grievance-bmu-university-in-surat/"
+                    >Grievance</a
+                  >
+                  <a href="https://www.ugc.ac.in/">UGC</a>
+                  <a
+                    href="https://www.bmusurat.ac.in/wp-content/uploads/2023/01/2022-23-BMU-461-Holidays-List-for-BMU-2024-_0001.pdf"
+                    >List of Holidays</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/important-links-bmu-university-in-surat-gujarat/"
+                    >Important Links</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/wp-content/uploads/2022/06/Final-BMU-information-Brouchure.pdf"
+                    >Brochures</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/wp-content/uploads/2022/07/BMU_RESEARCH-AND-DEVELOPMENT-CELL.pdf"
+                    >R & D CELL</a
+                  >
+                  <a
+                    href="https://www.bmusurat.ac.in/wp-content/uploads/2022/11/BMU_Ethics.pdf"
+                    >Ethics_BMU</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div id="contact">
+              <h1>Contact us</h1>
+              <h3>
+                <i class="ri-community-line"></i
+                ><a
+                  href="https://www.google.com/maps/place/Bhagwan+Mahavir+University/@21.1401463,72.7941876,17z/data=!3m1!4b1!4m6!3m5!1s0x3be04df8c842a501:0x263c40ab54c154c6!8m2!3d21.1401463!4d72.7941876!16s%2Fg%2F11bt_91z4l?entry=ttu"
+                  >Sr. No. 149, VIP Road, Bharthana <br />Road, Vesu, Surat,
+                  Gujarat <br />
+                  395007.</a
+                >
+              </h3>
+              <h3>
+                <i class="ri-whatsapp-line"></i
+                ><a href="#">+91 75758 07374/75</a>
+              </h3>
+              <h3>
+                <i class="ri-phone-line"></i
+                ><a href="#">+91 26167 70101/02/03/04</a>
+              </h3>
+              <h3>
+                <i class="ri-mail-line"></i><a href="">info@bmusurat.ac.in</a>
+              </h3>
+              <h3>
+                <i class="ri-earth-fill"></i><a href="#">www.bmusurat.ac.in</a>
+              </h3>
+            </div>
+          </div>
+          <div id="copyright">
+            <h1>© 2022 Bhagwan Mahavir University. All Rights Reserved.</h1>
+          </div>
         </div>
-            
-        </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

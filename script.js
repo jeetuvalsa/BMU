@@ -67,13 +67,13 @@ setInterval(()=>{
     else{
         hundred.innerHTML  = count
     }
-},50)
+},40)
     }
 })
 tl.from(".line span",{
     animationName:"now",
     opacity:1,
-    duration:5.1
+    duration:2.9
     // duration:0
 })
 tl.to("#loader",{
@@ -151,7 +151,7 @@ function page3animation(){
         })
     })
     var circulars = document.querySelectorAll(".circular")
-    console.log(circulars);
+    // console.log(circulars);
     circulars.forEach((e)=>{
         e.addEventListener("mouseenter",()=>{
             var image = e.getAttribute("data-image");
